@@ -16,7 +16,7 @@
 * 清除当前路径下所有 `.DS_Store` 文件 / Clear all `.DS_Store` files in the current directory：
 
 ```python
-python DS_Store_Cleaner
+python DS_Store_Cleaner.py
 ```
 
 * 清除指定路径下所有 `.DS_Store` 文件 / Clear all `.DS_Store` files in the specified directory：
