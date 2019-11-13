@@ -2,6 +2,9 @@ import os
 import sys
 
 
+os.chdir(os.getcwd())
+
+
 def all_file(base_path):
     """
     遍历出当前路径或指定路径及子目录下的所有文件
