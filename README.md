@@ -11,18 +11,28 @@
 
 [ds_store_exp](https://github.com/lijiejie/ds_store_exp) is such a `.DS_Store` file leak exploit script.
 
+## 安装 / Install
+
+```bash
+pip install DS_Store_Cleaner
+```
+
+
+
 ## 使用方法 / Usage
+
+
 
 * 清除当前路径下所有 `.DS_Store` 文件 / Clear all `.DS_Store` files in the current directory：
 
 ```python
-python DS_Store_Cleaner.py
+dsclean
 ```
 
 * 清除指定路径下所有 `.DS_Store` 文件 / Clear all `.DS_Store` files in the specified directory：
 
 ```python
-python DS_Store_Cleaner.py ~/Desktop
+dsclean ~/Desktop
 ```
 
 ## Licnese
