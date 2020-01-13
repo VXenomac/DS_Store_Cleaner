@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: DS-Store-Cleaner
+Version: 0.1
+Summary: 删除当前目录或指定目录下所有的 .DS_Store 文件
+Home-page: https://github.com/VXenomac/DS_Store_Cleaner
+Author: VXenomac
+Author-email: vxenomac@xyzlab.ai
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

@@ -1,5 +1,4 @@
 import os
-import sys
 
 
 os.chdir(os.getcwd())
@@ -31,11 +30,3 @@ def remove_file(files):
         print('正在删除 %s…' % file_path)
         os.remove(file_path)
     print('一共删除 %d 个 .DS_Store 文件…' % len(files))
-
-
-if len(sys.argv) > 1:
-    files = all_file(sys.argv[1])
-    remove_file(files)
-else:
-    files = all_file(os.getcwd())
-    remove_file(files)

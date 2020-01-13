@@ -1,0 +1,3 @@
+[console_scripts]
+dsclean = DS_Store_Cleaner.__main__:main
+
