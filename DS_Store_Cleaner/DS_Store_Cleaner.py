@@ -5,7 +5,7 @@ from pathlib import Path
 def remove_file(path):
     """
     根据文件路径删除文件
-    :param files: 当前目录下及子文件夹下的所有文件
+    :param path: 指定需要删除 ,DS_Store 的路径
     """
     path = Path(path)
     files = [f for f in path.rglob('.DS_Store')]
