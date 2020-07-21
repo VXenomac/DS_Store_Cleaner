@@ -4,11 +4,9 @@ from .DS_Store_Cleaner import *
 
 def main():
     if len(sys.argv) > 1:
-        files = all_file(sys.argv[1])
-        remove_file(files)
+        remove_file(sys.argv[1])
     else:
-        files = all_file(os.getcwd())
-        remove_file(files)
+        remove_file(os.getcwd())
 
 
 if __name__ == '__main__':
