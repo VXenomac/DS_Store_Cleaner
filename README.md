@@ -35,6 +35,6 @@ dsclean
 dsclean ~/Desktop
 ```
 
-## Licnese
+## License
 
 [MIT License](https://github.com/VXenomac/DS_Store_Cleaner/blob/master/LICENSE)
